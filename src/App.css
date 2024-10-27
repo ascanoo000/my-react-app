@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0; 
+  padding: 20px; 
+  color: #000;
+}
+
+h1 {
+  text-align: center; 
+  margin-bottom: 20px; 
+  font-weight: bold; 
+}
+
+h2 {
+  margin-top: 30px; 
+  margin-bottom: 10px; 
+  font-weight: bold; 
+}
+
+p {
+  margin-bottom: 15px; 
+}
+
+table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px; 
+  text-align: left; 
+  border: 1px solid #ccc; 
+}
+
+th {
+  background-color: #007bff; 
+  color: white;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin: 20px auto; 
+  max-width: 100%;
+  border-radius: 8px; 
+}
+
+.title {
+  font-weight: bold; 
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 20px; 
+}
+
+a {
+  color: #007bff; 
+  text-decoration: none; 
+  transition: color 0.3s; 
+}
+
+a:hover {
+  color: #0056b3; 
+}
+
+/* 響應式設計 */
+@media (max-width: 600px) {
+  body {
+      padding: 10px; 
+  }
+
+  h1 {
+      font-size: 1.5em; 
+  }
+
+  h2 {
+      font-size: 1.2em; 
+  }
+}
